@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "delay.o" "interrupt.o" "kpm.o" "lcd.o" "project_main.o" "rtc.o" "spi.o" "uart.o" --strict --scatter "RFID_FINAL.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RFID_FINAL.map" -o "RFID_FINAL.axf"
